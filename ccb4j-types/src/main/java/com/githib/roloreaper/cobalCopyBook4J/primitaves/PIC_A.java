@@ -13,6 +13,6 @@ public class PIC_A implements CopyBookType {
     }
 
     public String getRegexDefinition() {
-        return ".[][A..Z][a..z]";
+        return "[A..Z][a..z]";
     }
 }
