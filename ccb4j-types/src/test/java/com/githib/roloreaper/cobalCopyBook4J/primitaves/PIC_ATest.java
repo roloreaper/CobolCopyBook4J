@@ -12,6 +12,7 @@ import static org.junit.Assert.*;
  * User :roloreaper
  * Date :2016/10/31.
  */
+@Ignore
 public class PIC_ATest {
 
     private PIC_A pic_a;
