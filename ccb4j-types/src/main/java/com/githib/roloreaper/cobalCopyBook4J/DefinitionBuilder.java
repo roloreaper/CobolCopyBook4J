@@ -19,7 +19,7 @@ public class DefinitionBuilder {
         return this;
     }
 
-    public DefinitionBuilder load(InputStream inputStream) {
-
+    public static DefinitionBuilder load(InputStream inputStream) {
+        return new DefinitionBuilder();
     }
 }
