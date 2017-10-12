@@ -13,12 +13,17 @@
     <artifactId>ccb4j-types</artifactId>
     <version>0.1-SNAPSHOT</version>
     <name>CobolCopyBook4J -Types</name>
+	<packaging>jar</packaging>
 
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+		</dependency>
     </dependencies>
 
 <build>
